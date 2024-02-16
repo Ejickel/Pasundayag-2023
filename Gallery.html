@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <title>Gallery</title>
+    <link rel="shortcut icon" href="Images\images__10_-removebg-preview.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css\stylegallery.css">
+    <link rel="icon" href="img/gallery.png" type="image/icon type">
+  </head>
+
+<body>
+     <div>
+      <header>
+             <h1>Southern Baptist College, Inc.</h1>
+      </header>
+      <div>
+        <a onclick="trans3()" href="#"> &nbsp;Home&nbsp;</a>
+       <a onclick="trans()" href="#">&nbsp;Team&nbsp;</a>
+        <a id="tap"  onclick="trans0()" href="#">&nbsp;Gallery&nbsp;</a>
+        <a onclick="trans1()" href="#">&nbsp;About Us&nbsp;</a>
+        <a onclick="trans2()" id="left" href="#">&nbsp;Logout&nbsp;</a>
+      </div>
+        
+       <table id="image-table">
+         <tr>    
+  <td><img class="clickable-image" src="img/hiphop1.jpeg" alt="Image 1" onclick="enlargeImage(this)"></td>
+     
+ 
+  <td><img class="clickable-image" src="img/hiphop2.jpeg" alt="Image 2" onclick="enlargeImage(this)"></td>
+         </tr>
+   
+  
+    
+    <td><img class="clickable-image"  onclick="enlargeImage(this)" src="img/hiphop3.jpeg" alt="Image 5"></td>
+    <td><img class="clickable-image"  onclick="enlargeImage(this)" src="img/folk1.jpeg" alt="Image 1"></td>
+    </tr>
+  <tr>
+    <td><img class="clickable-image"  onclick="enlargeImage(this)"src="img/folk2.jpeg" alt="Image 2"></td>
+    <td><img class="clickable-image"  onclick="enlargeImage(this)" src="img/folk3.jpeg" alt="Image 5"></td>
+  </tr>
+  <tr>
+    <td><img class="clickable-image"  onclick="enlargeImage(this)" src="img/folk4.jpeg" alt="Image 6"></td>
+     <td><img class="clickable-image"  onclick="enlargeImage(this)" src="img/Sing1.jpeg" alt="Image 1"></td>
+    </tr>
+  <tr>
+     <td><img class="clickable-image"  onclick="enlargeImage(this)" src="img/Baseball.jpeg" alt="Image 1"></td>
+    <td><img class="clickable-image"  onclick="enlargeImage(this)" src="img/Baseball1.jpeg" alt="Image 2"></td>
+    </tr>
+  <tr>
+    <td><img class="clickable-image"  onclick="enlargeImage(this)" src="img/ft.jpeg" alt="Image 1"></td>
+    <td><img class="clickable-image"  onclick="enlargeImage(this)" src="img/ft1.jpeg" alt="Image 2"></td>
+    </tr>
+  <tr>
+    <td><img class="clickable-image"  onclick="enlargeImage(this)" src="img/ft2.jpeg" alt="Image 5"></td>
+    <td><img class="clickable-image"  onclick="enlargeImage(this)" src="img/vl.jpeg" alt="Image 1"></td>
+  </tr>
+  <tr>
+    <td><img class="clickable-image"  onclick="enlargeImage(this)" src="img/vl1.jpeg" alt="Image 2"></td>
+    <td><img class="clickable-image"  onclick="enlargeImage(this)" src="img/vl3.jpeg" alt="Image 6"></td>
+    </tr>
+  <tr>
+      <td><img class="clickable-image"  onclick="enlargeImage(this)" src="img/vl4.jpeg" ></td>
+    <td><img class="clickable-image"  onclick="enlargeImage(this)" src="img/vl5.jpeg" ></td>
+  </tr>
+</table>
+  
+ <div id="enlarged-container" onclick="closeEnlarged()">
+    <img id="enlarged-image" src="" alt="Enlarged Image">
+   
+ </div> 
+  
+    <footer>Southern Baptist College, Inc.</footer>
+  </div>
+  <script src="script/gallery.js" script></script>
+</body>
+
+</html>

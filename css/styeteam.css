@@ -1,0 +1,88 @@
+body {
+            background: linear-gradient(to right, #4b6cb7, #182848);
+            background-image: url('Team-bg.jpeg'); /* Adjust the image path accordingly */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: 'Arial', sans-serif;
+            color: #fff;
+            margin: 0;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        .page {
+            padding: 56px 20px 20px; /* Adjusted padding to accommodate the expanded navbar */
+        }
+
+header{
+  width: 100%;
+  min-height: 100px;
+  background-color: white;
+  line-height: 100px;
+}
+#navbar{
+  background-color: lightskyblue;
+  postioned: fixed;
+  left: 0;
+  right: 0;
+  top: 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+#navbar * {
+  display: inline;
+}
+#navbar li{
+  margin: 20px;
+}
+#navbar li a{
+  color: blue;
+  text-decoration: none;
+}
+  
+
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background: #1a1a1a;
+            color: #ffd700;
+            text-align: center;
+            padding: 10px 0;
+        }
+  h1{
+    -webkit-text-stroke: 1px black; /* For Safari/Chrome */
+  text-stroke: 1px black;
+    text-align: center;
+    color: #ffd700;
+  }
+  
+  p{
+    margin-top: 10px;    /* Adjust top margin */
+  margin-bottom: 10px;
+  
+    font-size: small;
+    color: white;
+    text-align: center;
+font-family: 'sans-serif';
+  
+  }
+  
+  img{
+    width: 500px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    border: 5px solid black;
+  }
+#enlargeImage {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+#anlargedImage.enlarged {
+  transform: scale(100.2); /* You can adjust the scale factor for the desired enlargement */
+}

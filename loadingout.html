@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Loading...</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #4b6cb7, #182848);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    /* Style for the loading screen */
+    .loading-screen {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    /* Four Dots Animation */
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    .dot {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      margin: 0 10px;
+      animation: bounce 1s infinite;
+    }
+
+    /* Change color of the first dot to blue */
+    .dot:nth-child(1) {
+      background-color: blue;
+    }
+
+    .dot:nth-child(2) {
+      animation-delay: 0.2s;
+      background-color: red;
+    }
+
+    .dot:nth-child(3) {
+      animation-delay: 0.4s;
+      background-color: yellow;
+    }
+
+    .dot:nth-child(4) {
+      animation-delay: 0.6s;
+      background-color: green;
+    }
+  </style>
+    <link rel="icon" href="img/loading.png" type="image/icon type">
+</head>
+<body>
+  <div class="loading-screen">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
+
+  <script>
+    // Wait for 10 seconds before redirecting to another page
+    setTimeout(function() {
+      window.location.href = 'main.html'; // Replace with the target page URL
+    }, 10000); // 10000 milliseconds = 10 seconds
+  </script>
+</body>
+</html>

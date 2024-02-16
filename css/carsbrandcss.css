@@ -1,0 +1,10 @@
+table, td{
+	border: 2px solid;
+	border-collapse: collapse;
+}
+#even{
+	background-color: lightskyblue;
+}
+#odd{
+	background-color: lightpink;
+}

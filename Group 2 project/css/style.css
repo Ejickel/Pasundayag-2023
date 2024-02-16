@@ -1,0 +1,76 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: flex;
+}
+
+body{
+	width: 100%;
+}
+.page{
+	background-color: black;
+}
+
+header{
+	width: 100%;
+	min-height: 150px;
+	background-color: white;
+	line-height: 150px;
+}
+
+#navbar{
+	background-color: yellow;
+	postioned: fixed;
+	left: 0;
+	right: 0;
+	top: 5px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+}
+.background{
+	
+}
+#navbar * {
+	display: inline;
+}
+#navbar li{
+	margin: 20px;
+}
+#navbar li a{
+	color: blue;
+	text-decoration: none;
+}
+
+#main{
+	width: 100%;
+	min-height: 700px;
+}
+
+#sidebar{
+	width: 20%;
+	min-height: 700px;
+	background-color: white;
+	float: right;
+}
+#sidebar h1{
+	color: red;
+}
+
+#main-body{
+	width: 80%;
+	min-height: 700px;
+	background-image: url('E:\Potente\Group 2 project\images\hero-bg.jpg');
+	background-size: 100%;
+	background-attachment: fixed;}
+
+footer{
+	width: 100%;
+	min-height: 120px;
+	background-color: red;
+}
+
+table tr td img{
+    height: 200px;
+    width: 200px;
+}
